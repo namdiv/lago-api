@@ -7,8 +7,8 @@ ruby '3.2.2'
 
 # Core
 gem 'activejob-uniqueness', require: 'active_job/uniqueness/sidekiq_patch'
-gem 'bootsnap', require: false
-gem 'clockwork', require: false
+gem 'bootsnap', require: true
+gem 'clockwork', require: true
 gem 'puma', '~> 5.6'
 gem 'rails', '~> 7.0.5'
 gem 'sidekiq'
